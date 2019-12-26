@@ -35,6 +35,7 @@ function exerciseDog(dogName, dogBreed) {
   for (action in routine) {
     returnedMessages.push(action);
   }
+  return returnedMessages;
 }
 
 
