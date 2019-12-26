@@ -1,11 +1,11 @@
 function wakeDog(dogName, dogBreed) {
   var message = `Wake ${dogName} the ${dogBreed}`
-  // console.log(message);
   return message;
 }
 
 function leashDog(dogName, dogBreed) {
-  console.log(`Leash ${dogName} the ${dogBreed}`);
+  var message = `Leash ${dogName} the ${dogBreed}`;
+  
 }
 
 function walkToPark(dogName, dogBreed) {
