@@ -33,17 +33,3 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 function exerciseDog(dogName, dogBreed) {
   return routine.map(fn => fn(dogName, dogBreed))
 }
-
-function exerciseDog(dogName, dogBreed) {
-  var returnedMessages = [];
-  for (let action in routine) {
-    var message = action(dogName, dogBreed);
-    returnedMessages.push(message);
-  }
-  return returnedMessages;
-}
-
-
-
-
-
