@@ -1,6 +1,6 @@
 function wakeDog(dogName, dogBreed) {
   var message = `Wake ${dogName} the ${dogBreed}`
-  console.log(message);
+  // console.log(message);
   return message;
 }
 
