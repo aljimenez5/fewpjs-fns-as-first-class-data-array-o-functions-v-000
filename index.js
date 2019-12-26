@@ -3,7 +3,7 @@ function wakeDog(dogName, dogBreed) {
   return message;
 }
 
-function leashDog(dogName, dogBreed) {
+var leashDog = function(dogName, dogBreed) {
   var message = `Leash ${dogName} the ${dogBreed}`;
   return message;
 }
