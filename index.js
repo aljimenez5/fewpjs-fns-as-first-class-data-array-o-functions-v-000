@@ -13,7 +13,7 @@ function walkToPark(dogName, dogBreed) {
   return message;
 }
 
-function throwFrisbee(dogName, dogBreed) {
+var throwFrisbee = function(dogName, dogBreed) {
   var message = `Throw the frisbee for ${dogName} the ${dogBreed}`;
   return message;
 }
