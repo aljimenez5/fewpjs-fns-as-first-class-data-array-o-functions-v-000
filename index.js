@@ -28,12 +28,13 @@ function unleashDog(dogName, dogBreed) {
   return message;
 }
 
-const routine = [wakeDog(dogName, dogBreed), leashDog(dogName, dogBreed), walkToPark(dogName, dogBreed),throwFrisbee(dogName, dogBreed), walkHome(dogName, dogBreed), unleashDog(dogName, dogBreed)];
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 
 function exerciseDog(dogName, dogBreed) {
   var returnedMessages = [];
   for (let action in routine) {
-    returnedMessages.push(action);
+    var message = action(dogName, dogBreed);
+    returnedMessages.push(message);
   }
   return returnedMessages;
 }
