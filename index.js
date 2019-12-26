@@ -8,7 +8,7 @@ function leashDog(dogName, dogBreed) {
   return message;
 }
 
-function walkToPark(dogName, dogBreed) {
+var walkToPark = function(dogName, dogBreed) {
   var message = `Walk to the park with ${dogName} the ${dogBreed}`;
   return message;
 }
