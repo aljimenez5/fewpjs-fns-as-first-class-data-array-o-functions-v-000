@@ -5,7 +5,7 @@ function wakeDog(dogName, dogBreed) {
 
 function leashDog(dogName, dogBreed) {
   var message = `Leash ${dogName} the ${dogBreed}`;
-  
+  return message;
 }
 
 function walkToPark(dogName, dogBreed) {
