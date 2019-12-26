@@ -10,6 +10,7 @@ function leashDog(dogName, dogBreed) {
 
 function walkToPark(dogName, dogBreed) {
   var message = `Walk to the park with ${dogName} the ${dogBreed}`;
+  return message;
 }
 
 function throwFrisbee(dogName, dogBreed) {
