@@ -28,7 +28,7 @@ function unleashDog(dogName, dogBreed) {
   return message;
 }
 
-const routine = [wakeDog(), leashDog(), walkToPark(),throwFrisbee(), walkHome(), unleashDog()];
+const routine = [wakeDog, leashDog, walkToPark,throwFrisbee, walkHome, unleashDog];
 
 function exerciseDog(dogName, dogBreed) {
   var returnedMessages = [];
