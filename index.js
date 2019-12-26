@@ -33,8 +33,7 @@ const routine = [wakeDog(dogName, dogBreed), leashDog(dogName, dogBreed), walkTo
 function exerciseDog(dogName, dogBreed) {
   var returnedMessages = [];
   for (let action in routine) {
-    var message = action(dogName, dogBreed);
-    returnedMessages.push(message);
+    returnedMessages.push(action);
   }
   return returnedMessages;
 }
